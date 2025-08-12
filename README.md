@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Freelance - Launching Soon Page
 
-## Getting Started
+A beautiful, responsive landing page built with Next.js and Tailwind CSS to announce the upcoming launch of the Freelance platform.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Responsive Design**: Optimized for all device sizes
+- **Modern UI**: Clean, professional design with gradient overlays
+- **Performance**: Built with Next.js for optimal performance
+- **Styling**: Tailwind CSS for consistent, beautiful styling
+- **TypeScript**: Full type safety and better development experience
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Deployment**: Ready for Vercel, Netlify, or any hosting platform
+
+## 📁 Project Structure
+
+```
+├── src/
+│   └── app/
+│       ├── page.tsx          # Main launching soon page
+│       ├── layout.tsx        # Root layout with metadata
+│       └── globals.css       # Global styles
+├── public/
+│   └── images/               # Image assets directory
+│       └── README.md         # Asset requirements guide
+├── package.json              # Dependencies and scripts
+└── README.md                 # This file
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Required Assets
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The following images need to be added to the `public/images/` directory:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **freelance-logo.png** - Main logo (96x96px recommended)
+2. **launching-soon-background.png** - Background image
+3. **wavy-pattern.png** - Decorative pattern (100x100px)
 
-## Learn More
+See `public/images/README.md` for detailed specifications.
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Node.js 18+ 
+- npm or yarn
 
-## Deploy on Vercel
+### Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   cd freelance-waiting-page
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Add your image assets to `public/images/`
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+### Build for Production
+
+```bash
+npm run build
+npm start
+```
+
+## 📱 Customization
+
+### Colors and Styling
+- Modify the gradient overlay in `src/app/page.tsx`
+- Update Tailwind classes for different color schemes
+- Adjust the decorative elements' positions and colors
+
+### Content
+- Update the title, subtitle, and description text
+- Modify the logo and branding
+- Change the background image
+
+### Layout
+- Adjust spacing and typography using Tailwind classes
+- Modify the responsive breakpoints
+- Customize the decorative elements
+
+## 🌐 Deployment
+
+This project is ready to deploy on:
+
+- **Vercel** (recommended for Next.js)
+- **Netlify**
+- **AWS Amplify**
+- Any static hosting service
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📞 Support
+
+If you have any questions or need help, please open an issue in the repository.
+
+---
+
+**Built with ❤️ using Next.js and Tailwind CSS**
